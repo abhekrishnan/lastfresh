@@ -1,7 +1,8 @@
 require 'cucumber'
 require 'watir'
 require 'rspec'
-require  'webdrivers'
+require 'webdrivers'
+require 'rubygems'
 
 Before do |scenario|
   $browser = Watir::Browser.new
